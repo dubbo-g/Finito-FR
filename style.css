@@ -13,10 +13,10 @@
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    font-size: 1.2rem;
 }
 
 html{
-    font-size: 0.8rem;
     font-family: Poppins, Segoe UI, Tahoma, sans-serif;
     color: var(--text-color);
 }
@@ -95,7 +95,36 @@ nav svg{
 
 
 
-
+@media (min-width: 475px){
+    .--{
+        max-width: 475px;
+    }
+}
+@media (min-width: 640px){
+    .--{
+        max-width: 640px;
+    }
+}
+@media (min-width: 768px){
+    .--{
+        max-width: 768px;
+    }
+}
+@media (min-width: 1024px){
+    .--{
+        max-width: 1024px;
+    }
+}
+@media (min-width: 1280px){
+    .--{
+        max-width: 1280px;
+    }
+}
+@media (min-width: 1536px){
+    .--{
+        max-width: 1536px;
+    }
+}
 
 
 
@@ -128,6 +157,7 @@ nav svg{
         width: 100%;
         padding: 20px 30px;
         justify-content: flex-start;
+        font-size: 1.5rem;
     }
 
     .open-sidebar-button, .close-sidebar-button{
@@ -173,10 +203,12 @@ nav svg{
 
 .g1{
     color: rgb(65, 255, 65);
+    font-size: 70px;
 }
 
 .r2{
     color: var(--acent-color);
+    font-size: 70px;
 }
 
 .intro{
@@ -217,9 +249,9 @@ nav svg{
 .intro h2, h3{
     color: #fff;
     text-align: center;
-    width: 50%;
+    
     margin-bottom: 50px;
-    font-size: 1.5rem;
+    
     font-weight: 500;
     line-height: 36px;
 }
@@ -244,11 +276,11 @@ nav svg{
     font-size: 1.2rem;
     line-height: 1.3;
 }
-.intro #book-now{
+.intro #book_now{
     background-color: var(--acent-color);
     color: var(--text-color);
 }
-.intro #learn-more{
+.intro #learn_more{
     background-color: var(--text-color);
     color: var(--acent-color);
 }
