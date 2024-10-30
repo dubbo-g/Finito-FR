@@ -163,10 +163,11 @@ nav svg{
 
 .hero-section{
     background-image: linear-gradient(#000000bf 100%, #fff), url(finitoPORSCHE1.jpg);
-    background-position: 0 0, 50%;
-    background-size: auto, cover;
+    background-position: center;
+    background-size: cover;
     height: 100vh;
     font-size: 60px;
+    display: flex;
 }
 
 
