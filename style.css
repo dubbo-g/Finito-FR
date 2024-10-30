@@ -16,7 +16,7 @@
 }
 
 html{
-    font-size: 12pt;
+    font-size: 0.8rem;
     font-family: Poppins, Segoe UI, Tahoma, sans-serif;
     color: var(--text-color);
 }
@@ -94,7 +94,11 @@ nav svg{
 
 
 
-
+@media (max-width: 531px){
+    .intro h2, h3{
+        font-size: 1rem;
+    }
+}
 
 
 
@@ -187,10 +191,8 @@ nav svg{
     display: flex;
     text-align: center;
     color: #fff;
-    margin-bottom: 20px;
-    padding: 10px;
-    font-size: 70px;
     line-height: 75px;
+    margin: auto;
 }
 
 .intro h1{
@@ -222,7 +224,7 @@ nav svg{
     text-align: center;
     width: 50%;
     margin-bottom: 50px;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 500;
     line-height: 36px;
 }
@@ -244,7 +246,7 @@ nav svg{
     text-decoration: none;
     border-radius: 4px;
     color: var(--acent-color);
-    font-size: 15px;
+    font-size: 1.2rem;
     line-height: 1.3;
 }
 .intro #book-now{
